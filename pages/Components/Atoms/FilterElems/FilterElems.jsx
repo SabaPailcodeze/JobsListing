@@ -3,7 +3,7 @@ import React from "react";
 const FilterElems = ({ job }) => {
   return (
     <>
-      <div className="flex gap-4  font-bold">
+      <div className="flex lg:flex-nowrap flex-wrap gap-4 font-bold">
         <button className="bg-[#E6FBFB] text-[#5CA5A5] px-[10px] pt-[5px] pb-[3px] rounded-[4px] hover:bg-[#5CA5A5] hover:text-white duration-200 ease-in">
           <span>{job.role}</span>
         </button>

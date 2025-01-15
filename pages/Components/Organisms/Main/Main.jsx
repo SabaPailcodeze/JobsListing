@@ -5,7 +5,7 @@ import JobsCard from "../../Molecules/JobsCard/JobsCard";
 const Main = () => {
   return (
     <main className="bg-[#EFFAFA]">
-      <div className="container mx-auto flex flex-col gap-10 lg:gap-6 py-20 px-0 lg:px-40">
+      <div className="container mx-auto flex flex-col gap-10 lg:gap-6 py-20 px-auto lg:px-40">
         {JobsData.map((job) => (
           <JobsCard key={job.id} job={job} />
         ))}
