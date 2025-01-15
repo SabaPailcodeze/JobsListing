@@ -7,9 +7,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        DesktopBg: "url('/Images/DesktopBg.svg')",
+        MobileBg: "url('/Images/MobileBg.svg')",
+      },
+      boxShadow: {
+        custom: "0px 15px 20px -5px rgba(13, 113, 130, 0.15)",
       },
     },
   },
